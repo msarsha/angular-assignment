@@ -6,13 +6,15 @@
 
 #### How to get started:
 ----
-Clone this repository
+Clone this repository `git clone https://github.com/msarsha/angular-assignment.git`
 
 Install packages using `npm install`
 
 Start the application using `npm start`
 
 Start the REST api server using `npm run json-server` (will be served on `http://localhost:3000`)
+
+If you have any questions please open an issue to everyone could see the answer.
 
 
 #### flights REST api details
