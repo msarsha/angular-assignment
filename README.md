@@ -53,3 +53,5 @@ For example: http `GET` request to `http://localhost:3000/flights` will return a
 * use the router to create details page
 
 * implement search field on the home page
+
+* use the `forms` module
