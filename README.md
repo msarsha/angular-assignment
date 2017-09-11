@@ -5,17 +5,19 @@
 ---------
 
 #### How to get started:
-----
-Clone this repository
 
-Install packages using `npm install`
+Clone this repository `git clone https://github.com/msarsha/angular-assignment.git`.
 
-Start the application using `npm start`
+Install packages using `npm install`.
 
-Start the REST api server using `npm run json-server` (will be served on `http://localhost:3000`)
+Start the application using `npm start`.
+
+Start the REST api server using `npm run json-server` (will be served on `http://localhost:3000`).
+
+If you have any questions please open an issue so everyone could read it.
 
 
-#### flights REST api details
+#### flights REST api details:
 
 The application uses `json-server` to create an API that you can then get data from.
 
@@ -35,10 +37,10 @@ For example: http `GET` request to `http://localhost:3000/flights` will return a
 
 #### Application requirements:
 
-* home page to display all flights (display only number and route)
-  - user should be able to click on a flight and navigate to the details page
+* home page to display all flights (display only number and route).
+  - user should be able to click on a flight => clicking will then show the flight details section.
 
-* details page to display flight data
+* details section to display flight data
   - allow the user to change the check-in status.
   - display dropdown to select a pilot
   - allow the user to save his changes
@@ -48,4 +50,8 @@ For example: http `GET` request to `http://localhost:3000/flights` will return a
 
 #### Bonus
 
+* use the router to create details page
+
 * implement search field on the home page
+
+* use the `forms` module
