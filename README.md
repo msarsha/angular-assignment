@@ -14,10 +14,10 @@
 
 * Start the REST api server using `npm run json-server` (will be served on `http://localhost:3000`).
 
-**If you have any questions please open an issue so everyone could read it.**
+_If you have any questions please open an issue so everyone could read it._
 
 
-#### flights REST api details:
+#### Flights REST api details:
 
 The application uses `json-server` to create an API that you can then get data from.
 
