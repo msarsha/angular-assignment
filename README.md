@@ -31,10 +31,6 @@ For example: http `GET` request to `http://localhost:3000/flights` will return a
 `POST /flights/1` save flight with id 1
   
 `GET /pilots` return all pilots
-  
-`GET /pilots/1` return pilot with id 1
-  
-`POST /pilots/1` save pilot with id 1
 
 
 #### Application requirements:
