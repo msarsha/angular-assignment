@@ -5,7 +5,7 @@
 ---------
 
 #### How to get started:
-----
+
 Clone this repository `git clone https://github.com/msarsha/angular-assignment.git`.
 
 Install packages using `npm install`.
@@ -38,7 +38,7 @@ For example: http `GET` request to `http://localhost:3000/flights` will return a
 #### Application requirements:
 
 * home page to display all flights (display only number and route).
-  - user should be able to click on a flight -> clicking will then show the flight details section.
+  - user should be able to click on a flight => clicking will then show the flight details section.
 
 * details section to display flight data
   - allow the user to change the check-in status.
