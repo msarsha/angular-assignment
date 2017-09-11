@@ -1,28 +1,55 @@
-# AngularAssigment
+# Angular Assigment
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
 
-## Development server
+### NOTE: You must have git and node installed !
+---------
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### How to get started:
 
-## Code scaffolding
+Clone this repository
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Install packages using `npm install`
 
-## Build
+Start the application using `npm start`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Start the REST api server using `npm run json-server` (will be served on `http://localhost:3000`)
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### flights REST api details
 
-## Running end-to-end tests
+The application uses `json-server` to create an API that you can then get data from.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+For example: http `GET` request to `http://localhost:3000/flights` will return all flights.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+#### Available api routes:
+
+`GET /flights` return all flights
+  
+`GET /flights/1` return flight with id 1
+  
+`POST /flights/1` save flight with id 1
+  
+`GET /pilots` return all pilots
+  
+`GET /pilots/1` return pilot with id 1
+  
+`POST /pilots/1` save pilot with id 1
+
+
+#### Application requirements:
+
+* home page to display all flights (display only number and route)
+  - user should be able to click on a flight and navigate to the details page
+
+* details page to display flight data
+  - allow the user to change the check-in status.
+  - display dropdown to select a pilot
+  - allow the user to save his changes
+
+* use components to re-use functionality
+
+
+#### Bonus
+
+* implement search field on the home page
