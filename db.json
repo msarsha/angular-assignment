@@ -1,0 +1,46 @@
+{
+  "flights": [
+    {
+      "id": 1,
+      "number": "ly001",
+      "route": "tlv-jfk",
+      "check-in": false,
+      "pilotId": 2
+    },
+    {
+      "id": 2,
+      "number": "ly333",
+      "route": "tlv-ltn",
+      "check-in": true,
+      "pilotId": 3
+    },
+    {
+      "id": 2,
+      "number": "ly054",
+      "route": "tlv-cdg",
+      "check-in": false,
+      "pilotId": 2
+    },
+    {
+      "id": 2,
+      "number": "ly017",
+      "route": "tlv-znz",
+      "check-in": false,
+      "pilotId": 1
+    }
+  ],
+  "pilots": [
+    {
+      "id": 1,
+      "name": "Israel Israeli"
+    },
+    {
+      "id": 2,
+      "name": "Chuck Norris"
+    },
+    {
+      "id": 3,
+      "name": "Winnie the Pooh"
+    }
+  ]
+}
