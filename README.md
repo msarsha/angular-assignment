@@ -28,7 +28,7 @@ For example: http `GET` request to `http://localhost:3000/flights` will return a
   
 `GET /flights/1` return flight with id 1
   
-`POST /flights/1` save flight with id 1
+`PUT /flights/1` save flight with id 1
   
 `GET /pilots` return all pilots
 
