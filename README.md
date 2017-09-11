@@ -5,7 +5,7 @@
 ---------
 
 #### How to get started:
-
+----
 Clone this repository
 
 Install packages using `npm install`
